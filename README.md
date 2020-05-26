@@ -6,3 +6,6 @@ This causes the discrepencies between Influx DB metrics and Jmeter Metrics.
 To resolve this issue, I have modified Jmeter source code and changed the default influxDB send interval to 1 second.
 
 Download ApacheJMeter_components.jar file and replace it with original file in JmeterHomeDirectory/lib/ext directory.
+
+
+Make Sure, You are using Jmeter 5.1.1 version as this JAR is built on that version.
